@@ -1,0 +1,9 @@
+[submodule "submodules/acutest"]
+	path = submodules/acutest
+	url = https://github.com/mity/acutest.git
+[submodule "submodules/libgb"]
+	path = submodules/libgb
+	url = https://github.com/NolanRus/libgb.git
+[submodule "submodules/libutf"]
+	path = submodules/libutf
+	url = https://github.com/NolanRus/libutf.git
