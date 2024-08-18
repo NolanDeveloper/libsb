@@ -155,7 +155,7 @@ typedef struct {
     int n;
 } AppendFormatData;
 
-void append_format_v(char *block, size_t block_size, void *userdata) {
+static void append_format_v(char *block, size_t block_size, void *userdata) {
     AppendFormatData *data = userdata;
     data->n = vsnprintf(block, block_size, data->fmt, data->args);
 }
